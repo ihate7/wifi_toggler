@@ -1,0 +1,27 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# PyCharm / IDEs
+.idea/
+.vscode/
+*.swp
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller builds
+build/
+dist/
+*.spec
+
+# Application specific (Do not commit local configs and logs)
+config.json
+app.log
