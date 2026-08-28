@@ -4,3 +4,6 @@ winrt-runtime==3.2.1
 winrt-Windows.Foundation==3.2.1
 winrt-Windows.Foundation.Collections==3.2.1
 winrt-Windows.Devices.Radios==3.2.1
+mouse~=0.7.1
+pystray~=0.19.5
+pillow~=11.3.0
