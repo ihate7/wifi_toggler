@@ -22,7 +22,7 @@ A lightweight, cross-platform background utility to toggle the system's Wi-Fi st
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/wifi_toggler.git
+   git clone https://github.com/Aleksey-Shkulepov/wifi_toggler.git
    cd wifi_toggler
    ```
 
@@ -61,7 +61,7 @@ To use the tool without setting up a Python environment, you can compile it into
 
 ```bash
 pip install pyinstaller
-pyinstaller --noconsole --onefile --name WifiToggler src/main.py
+pyinstaller WifiToggler.spec
 ```
 
 The compiled `WifiToggler.exe` will be located in the `dist/` folder. You can place this executable anywhere on your system (e.g., in your Startup folder). It will automatically generate `config.json` and `app.log` in its current directory.
