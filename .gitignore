@@ -21,6 +21,7 @@ __pycache__/
 build/
 dist/
 *.spec
+!WifiToggler.spec
 
 # Application specific (Do not commit local configs and logs)
 config.json
