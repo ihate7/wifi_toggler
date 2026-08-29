@@ -56,7 +56,7 @@ class WifiTogglerApp:
         mouse_buttons = {"left", "right", "middle", "x", "x2"}
 
         if hotkey in mouse_buttons:
-            mouse.on_button(self.manager.toggle, buttons=(hotkey,), types=('down',))
+            mouse.on_button(self.manager.toggle, buttons=(hotkey,), types=('down', 'double'))
         else:
             keyboard.on_press_key(hotkey, lambda _: self.manager.toggle())
 
