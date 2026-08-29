@@ -22,7 +22,7 @@ A lightweight, cross-platform background utility to toggle the system's Wi-Fi st
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Aleksey-Shkulepov/wifi_toggler.git
+   git clone https://github.com/ihate7/wifi_toggler.git
    cd wifi_toggler
    ```
 
